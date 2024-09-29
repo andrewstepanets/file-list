@@ -1,5 +1,5 @@
 import { FileList } from './components/file-list';
-import { FileDetails } from './types/file';
+import { FileDetails } from './types/file-details';
 
 const mockData: FileDetails[] = [
   {
