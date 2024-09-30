@@ -35,11 +35,11 @@ src/
 │   ├── modal.tsx # Reusable modal component
 │   └── table.tsx # Reusable table component
 ├── styles/ # SCSS styles
-│   ├── \_colors.scss # Color variables
-│   ├── \_global.scss # Global styles
-│   ├── \_modal.scss # Modal styles
-│   ├── \_reset.scss # Normalize styles
-│   ├── \_table.scss # Table-specific styles
+│   ├── _colors.scss # Color variables
+│   ├── _global.scss # Global styles
+│   ├── _modal.scss # Modal styles
+│   ├── _reset.scss # Normalize styles
+│   ├── _table.scss # Table-specific styles
 │   └── custom.scss # Table-specific styles
 ├── types/ # TypeScript types
 │   ├── file-details.ts # FileDetails type
