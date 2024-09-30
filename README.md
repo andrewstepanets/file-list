@@ -40,7 +40,7 @@ src/
 │   ├── _modal.scss # Modal styles
 │   ├── _reset.scss # Normalize styles
 │   ├── _table.scss # Table-specific styles
-│   └── custom.scss # Table-specific styles
+│   └── custom.scss # General project styles
 ├── types/ # TypeScript types
 │   ├── file-details.ts # FileDetails type
 │   └── table.ts # Table columns and props type
