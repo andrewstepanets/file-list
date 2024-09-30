@@ -29,30 +29,30 @@ The table is built as a reusable component, making it flexible enough to use wit
 
 The project is organized like this:
 
-src/
-├── components/ # Main UI components
-│ ├── file-list.tsx # The FileList component using the reusable table
-│ ├── modal.tsx # Reusable modal component
-│ └── table.tsx # Reusable table component
-├── styles/ # SCSS styles
-│ ├── \_colors.scss # Color variables
-│ ├── \_global.scss # Global styles
-│ ├── \_modal.scss # Modal styles
-│ ├── \_reset.scss # Normalize styles
-│ ├── \_table.scss # Table-specific styles
-│ └── custom.scss # Table-specific styles
-├── types/ # TypeScript types
-│ ├── file-details.ts # FileDetails type
-│ └── table.ts # Table columns and props type
-├── utils/ # Utility functions
-│ └── unique-key-utils.ts # Utility for generating unique row keys
-├── tests/ # Unit and accessibility tests
-│ ├── accessibility.spec.tsx # Accessibility tests using jest-axe
-│ ├── file-list.spec.tsx # Unit tests for FileList component
-│ └── table.spec.tsx # Unit tests for Table component
-├── app.tsx # Main app file
-├── main.tsx # App entry point
-└── setupTests.ts # Testing setup (Jest, Testing Library)
+src/<br>
+├── components/ # Main UI components<br>
+│   ├── file-list.tsx # The FileList component using the reusable table<br>
+│   ├── modal.tsx # Reusable modal component<br>
+│   └── table.tsx # Reusable table component<br>
+├── styles/ # SCSS styles<br>
+│   ├── \_colors.scss # Color variables<br>
+│   ├── \_global.scss # Global styles<br>
+│   ├── \_modal.scss # Modal styles<br>
+│   ├── \_reset.scss # Normalize styles<br>
+│   ├── \_table.scss # Table-specific styles<br>
+│   └── custom.scss # Table-specific styles<br>
+├── types/ # TypeScript types<br>
+│   ├── file-details.ts # FileDetails type<br>
+│   └── table.ts # Table columns and props type<br>
+├── utils/ # Utility functions<br>
+│   └── unique-key-utils.ts # Utility for generating unique row keys<br>
+├── tests/ # Unit and accessibility tests<br>
+│   ├── accessibility.spec.tsx # Accessibility tests using jest-axe<br>
+│   ├── file-list.spec.tsx # Unit tests for FileList component<br>
+│   └── table.spec.tsx # Unit tests for Table component<br>
+├── app.tsx # Main app file<br>
+├── main.tsx # App entry point<br>
+└── setupTests.ts # Testing setup (Jest, Testing Library)<br>
 └── vite-env.d.ts # TypeScript environment for Vite
 
 ## Features
