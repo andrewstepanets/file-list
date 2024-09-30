@@ -5,15 +5,16 @@ This project is a reusable list table component that displays file data with opt
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Project Structure](#project-structure)
-3. [Features](#features)
-4. [Installation](#installation)
-5. [Running the Project](#running-the-project)
-6. [Running Tests](#running-tests)
-7. [Running Storybook](#running-storybook)
-8. [Technologies Used](#technologies-used)
-9. [What's Done](#whats-done)
-10. [Accessibility](#accessibility)
+2. [Live Demo](#live-demo)
+3. [Project Structure](#project-structure)
+4. [Features](#features)
+5. [Installation](#installation)
+6. [Running the Project](#running-the-project)
+7. [Running Tests](#running-tests)
+8. [Running Storybook](#running-storybook)
+9. [Technologies Used](#technologies-used)
+10. [What's Done](#whats-done)
+11. [Accessibility](#accessibility)
 
 ## Overview
 
@@ -24,6 +25,13 @@ This project allows users to:
 - Use a "Download Selected" button, which is enabled only when `available` files are selected.
 
 The table is built as a reusable component, making it flexible enough to use with different data sets. It's designed with accessibility and testing in mind.
+
+## Live Demo
+
+You can see the live deployment of the project at the following URL:
+
+[https://main--file-list-table.netlify.app/](https://main--file-list-table.netlify.app/)
+
 
 ## Project Structure
 
