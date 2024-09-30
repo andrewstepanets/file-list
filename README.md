@@ -10,9 +10,10 @@ This project is a reusable list table component that displays file data with opt
 4. [Installation](#installation)
 5. [Running the Project](#running-the-project)
 6. [Running Tests](#running-tests)
-7. [Technologies Used](#technologies-used)
-8. [What's Done](#whats-done)
-9. [Accessibility](#accessibility)
+7. [Running Storybook](#running-storybook)
+8. [Technologies Used](#technologies-used)
+9. [What's Done](#whats-done)
+10. [Accessibility](#accessibility)
 
 ## Overview
 
@@ -61,6 +62,7 @@ src/
 - **File Selection and Download**: The "Download Selected" button is conditionally enabled based on file availability.
 - **Accessibility**: The project follows accessibility best practices.
 - **Testing**: Thorough unit tests and accessibility checks are included.
+- **Storybook** for interactive component development and documentation
 
 ## Installation
 
@@ -106,6 +108,18 @@ This project includes unit tests and accessibility tests. To run the tests:
    npm run test src/tests/accessibility.spec.tsx
    ```
 
+## Running Storybook
+
+Storybook is used for visualizing and testing individual components in isolation.
+
+1. To run Storybook:
+
+   ```bash
+   npm run storybook
+   ```
+
+2. Open Storybook at `http://localhost:6006`.
+
 ## Technologies Used
 
 The project uses the following technologies:
@@ -117,6 +131,7 @@ The project uses the following technologies:
 - **React Testing Library**: For testing React components.
 - **Vitest**: For running unit tests.
 - **jest-axe**: For accessibility testing.
+- **Storybook**: For component development and documentation
 - **ESLint**: For code linting and formatting.
 
 ## What's Done

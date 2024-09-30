@@ -80,22 +80,18 @@
 }
 
 .status {
+  display: inline-block;
   text-align: left;
 
-  &.status-available {
-    position: relative;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: -1.5625rem;
-      transform: translateY(-50%);
-      width: 1rem;
-      height: 1rem;
-      border-radius: 50%;
-      background-color: $available-green;
-    }
+  .status-indicator {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $available-green;
+    margin-right: 0.6rem;
+    margin-left: -1.5rem;
+    vertical-align: middle;
   }
 
   &.status-scheduled {

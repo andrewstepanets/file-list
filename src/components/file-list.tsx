@@ -52,6 +52,9 @@ export function FileList({ files }: ComponentProps) {
             status === 'available' ? 'status-available' : 'status-scheduled'
           }`}
         >
+          {status === 'available' && (
+            <span className='status-indicator' aria-hidden='true'></span>
+          )}
           {status === 'available' ? 'Available' : 'Scheduled'}
         </span>
       ),
