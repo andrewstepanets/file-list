@@ -32,8 +32,8 @@ The project is organized like this:
 src/
 ├── components/ # Main UI components
 │   ├── file-list.tsx # The FileList component using the reusable table
-│   ├── modal.tsx # Reusable modal component
-│   └── table.tsx # Reusable table component
+│   ├── modal.tsx # Modal component that contains a reusable list table component
+│   └── table.tsx # Reusable list table component
 ├── styles/ # SCSS styles
 │   ├── _colors.scss # Color variables
 │   ├── _global.scss # Global styles
