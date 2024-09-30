@@ -87,9 +87,9 @@ src/
 
 To run the project locally, use:
 
-    ```bash
+```bash
     npm run dev
-    ```
+```
 
 This will start a local development server, and you can view the project at `http://localhost:8080/`.
 
