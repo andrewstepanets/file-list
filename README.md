@@ -21,7 +21,7 @@ This project allows users to:
 
 - View a list of files in a table with checkboxes to select them.
 - Open a modal to display the selected files.
-- Use a "Download Selected" button, which is enabled only when available files are selected.
+- Use a "Download Selected" button, which is enabled only when `available` files are selected.
 
 The table is built as a reusable component, making it flexible enough to use with different data sets. It's designed with accessibility and testing in mind.
 
