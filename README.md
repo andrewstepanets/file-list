@@ -75,7 +75,7 @@ src/
 2. Move into the project directory:
 
    ```bash
-   cd file-list-table
+   cd file-list
    ```
 
 3. Install the dependencies:
